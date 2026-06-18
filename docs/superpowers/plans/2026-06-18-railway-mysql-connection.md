@@ -35,12 +35,20 @@ railway variable set \
   DB_DATABASE=railway \
   DB_USERNAME=root \
   DB_PASSWORD=zXoSFjcptSncNhawxdaNfopQTISrRYZw \
+  APP_NAME=Laravel \
+  APP_ENV=production \
+  APP_KEY=base64:CcFaigwJDjBzNKn02pNv/DRZ1xExDbWkNVoetXv0oPk= \
+  APP_DEBUG=false \
+  APP_URL=https://pbf-alfa-production.up.railway.app \
+  SESSION_DRIVER=database \
+  QUEUE_CONNECTION=database \
+  CACHE_STORE=database \
   --service pbf-alfa
 ```
 
 Expected output:
 ```
-✔ Set 6 variables on pbf-alfa
+✔ Set 14 variables on pbf-alfa
 ```
 
 - [x] **Step 2: Verify that variables are set correctly on the service**
