@@ -24,7 +24,7 @@
 - Consumes: Static credentials of `MySQL` service
 - Produces: Connected Laravel application
 
-- [ ] **Step 1: Set database environment variables on pbf-alfa service**
+- [x] **Step 1: Set database environment variables on pbf-alfa service**
 
 Run the following command to set the connection variables:
 ```bash
@@ -43,7 +43,7 @@ Expected output:
 ✔ Set 6 variables on pbf-alfa
 ```
 
-- [ ] **Step 2: Verify that variables are set correctly on the service**
+- [x] **Step 2: Verify that variables are set correctly on the service**
 
 Run:
 ```bash
@@ -52,7 +52,7 @@ railway variable list --service pbf-alfa
 
 Expected: The listed variables should include the new `DB_*` connection keys with the correct values.
 
-- [ ] **Step 3: Monitor deployment status**
+- [x] **Step 3: Monitor deployment status**
 
 Run:
 ```bash
@@ -61,7 +61,7 @@ railway status
 
 Expected: Service `pbf-alfa` should trigger a redeploy automatically and eventually show status as `Online`.
 
-- [ ] **Step 4: Commit and finalize**
+- [x] **Step 4: Commit and finalize**
 
 Write the results and commit the plan file.
 ```bash
